@@ -44,6 +44,10 @@ public class IntroLab {
     /**
      * An example method that calls on printLabMessage.
      */
+    public static String alomari5(){
+        return printLabMessage("Hi", "Amr Alomari", true, "java");
+
+    }
     public static String exampleStudent() {
         return printLabMessage("Hello", "Stu Dent", true,
                 "Welcome to CSC207!");
@@ -59,10 +63,12 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(alomari5());
 
 
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
+
 
 }
