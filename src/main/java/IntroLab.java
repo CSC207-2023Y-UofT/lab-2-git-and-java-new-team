@@ -41,6 +41,11 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String dewulfal() {
+        return printLabMessage("Hello", "Alec", true,
+                "Welcome to CSC207!");
+    }
+
     /**
      * A method that calls on printLabMessage with some parameters.
      */
@@ -68,6 +73,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
         System.out.println(vinceCloutier());
+        System.out.println(dewulfal());
 
     }
 

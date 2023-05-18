@@ -39,4 +39,11 @@ public class IntroLabTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void testDewulfal() {
+        String expected = "Hello! My name is Alec! " +
+                "I like cats more than dogs! Welcome to CSC207!";
+        String actual = IntroLab.dewulfal();
+        assertEquals(expected, actual);
+    }
 }
